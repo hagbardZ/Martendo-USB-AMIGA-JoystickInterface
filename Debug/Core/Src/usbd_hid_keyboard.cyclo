@@ -1,8 +1,8 @@
-../Core/Src/usbd_hid_keyboard.c:520:18:USBD_HID_GetCfgDesc	1
-../Core/Src/usbd_hid_keyboard.c:534:17:USBD_HID_DataIn	1
-../Core/Src/usbd_hid_keyboard.c:551:18:USBD_HID_GetDeviceQualifierDesc	1
-../Core/Src/usbd_hid_keyboard.c:383:17:USBD_HID_Setup	15
-../Core/Src/usbd_hid_keyboard.c:359:17:USBD_HID_DeInit	2
+../Core/Src/usbd_hid_keyboard.c:519:18:USBD_HID_GetCfgDesc	1
+../Core/Src/usbd_hid_keyboard.c:533:17:USBD_HID_DataIn	1
+../Core/Src/usbd_hid_keyboard.c:550:18:USBD_HID_GetDeviceQualifierDesc	1
+../Core/Src/usbd_hid_keyboard.c:382:17:USBD_HID_Setup	15
+../Core/Src/usbd_hid_keyboard.c:358:17:USBD_HID_DeInit	2
 ../Core/Src/usbd_hid_keyboard.c:327:17:USBD_HID_Init	2
-../Core/Src/usbd_hid_keyboard.c:465:9:USBD_HID_SendReport	3
-../Core/Src/usbd_hid_keyboard.c:491:10:USBD_HID_GetPollingInterval	2
+../Core/Src/usbd_hid_keyboard.c:464:9:USBD_HID_SendReport	3
+../Core/Src/usbd_hid_keyboard.c:490:10:USBD_HID_GetPollingInterval	2

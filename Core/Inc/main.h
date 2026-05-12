@@ -197,7 +197,7 @@ void Error_Handler(void);
 #define JOYSTICK_AXIS_NUM				2
 #define SECONDARY_AXIS_NUM			0
 
-#define BUTTONS_NUM							1
+#define BUTTONS_NUM							2
 #define LEDS_NUM								0
 
 
