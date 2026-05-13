@@ -90,11 +90,13 @@ void Error_Handler(void);
 /* USER CODE BEGIN Private defines */
 #define THROTTLE_ENABLED				0					// 1 for enabled, 0 for disabled
 #define RUDDER_ENABLED					0					// 1 for enabled, 0 for disabled
-#define JOYSTICK_AXIS_NUM				0
-#define SECONDARY_AXIS_NUM			0
+#define JOYSTICK_AXIS_NUM				2
+#define SECONDARY_AXIS_NUM				0
 
-#define BUTTONS_NUM							5
-#define LEDS_NUM								0
+#define BUTTONS_NUM						2
+#define LEDS_NUM						0
+#define THROTTLE_ENABLED				0					// 1 for enabled, 0 for disabled
+#define RUDDER_ENABLED					0					// 1 for enabled, 0 for disabled
 
 /* END OF USER CODE AREA */
 
@@ -192,13 +194,6 @@ void Error_Handler(void);
 
 
 
-#define THROTTLE_ENABLED				0					// 1 for enabled, 0 for disabled
-#define RUDDER_ENABLED					0					// 1 for enabled, 0 for disabled
-#define JOYSTICK_AXIS_NUM				2
-#define SECONDARY_AXIS_NUM			0
-
-#define BUTTONS_NUM							2
-#define LEDS_NUM								0
 
 
 
@@ -231,10 +226,10 @@ void Error_Handler(void);
 	#define BUTTONS_ENABLED  	0
 #endif
 
-#define DEVICE_ID1					0x1FFFF7E8
-#define DEVICE_ID2					0x1FFFF7EA
-#define DEVICE_ID3					0x1FFFF7EC
-#define DEVICE_ID4					0x1FFFF7F0
+//#define DEVICE_ID1					0x1FFFF7E8
+//#define DEVICE_ID2					0x1FFFF7EA
+//#define DEVICE_ID3					0x1FFFF7EC
+//#define DEVICE_ID4					0x1FFFF7F0
 
 /* USER CODE END Private defines */
 
