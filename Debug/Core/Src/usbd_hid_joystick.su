@@ -1,0 +1,8 @@
+../Core/Src/usbd_hid_joystick.c:520:18:USBD_HID_GetCfgDesc	0	static
+../Core/Src/usbd_hid_joystick.c:534:17:USBD_HID_DataIn	0	static
+../Core/Src/usbd_hid_joystick.c:551:18:USBD_HID_GetDeviceQualifierDesc	0	static
+../Core/Src/usbd_hid_joystick.c:383:17:USBD_HID_Setup	16	static
+../Core/Src/usbd_hid_joystick.c:359:17:USBD_HID_DeInit	16	static
+../Core/Src/usbd_hid_joystick.c:327:17:USBD_HID_Init	8	static
+../Core/Src/usbd_hid_joystick.c:465:9:USBD_HID_SendReport	8	static
+../Core/Src/usbd_hid_joystick.c:491:10:USBD_HID_GetPollingInterval	0	static

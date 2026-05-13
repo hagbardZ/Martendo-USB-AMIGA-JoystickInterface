@@ -32,7 +32,7 @@
 #include "usb_device.h"
 #include "usbd_core.h"
 #include "usbd_desc.h"
-#include "usbd_hid_keyboard.h"
+#include <usbd_hid_joystick.h>
 
 #include "main.h"
 #endif

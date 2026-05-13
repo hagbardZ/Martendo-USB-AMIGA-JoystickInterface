@@ -34,7 +34,7 @@
 #include "usbd_def.h"
 #include "usbd_core.h"
 
-#include "usbd_hid_keyboard.h"
+#include <usbd_hid_joystick.h>
 #include "main.h"
 #endif
 

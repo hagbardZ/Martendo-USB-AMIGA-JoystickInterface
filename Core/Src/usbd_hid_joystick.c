@@ -44,7 +44,7 @@
 EndBSPDependencies */
 
 /* Includes ------------------------------------------------------------------*/
-#include "usbd_hid_keyboard.h"
+#include <usbd_hid_joystick.h>
 #include "usbd_ctlreq.h"
 #include "main.h"
 
@@ -330,6 +330,7 @@ static uint8_t  USBD_HID_Init (USBD_HandleTypeDef *pdev,
   uint8_t ret = 0;
 
   /* Open EP IN */
+  HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, 1); // gren LED indicates USB connected
   USBD_LL_OpenEP(pdev,
                  HID_EPIN_ADDR,
                  USBD_EP_TYPE_INTR,

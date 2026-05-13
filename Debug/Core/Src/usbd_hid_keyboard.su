@@ -1,8 +1,0 @@
-../Core/Src/usbd_hid_keyboard.c:519:18:USBD_HID_GetCfgDesc	0	static
-../Core/Src/usbd_hid_keyboard.c:533:17:USBD_HID_DataIn	0	static
-../Core/Src/usbd_hid_keyboard.c:550:18:USBD_HID_GetDeviceQualifierDesc	0	static
-../Core/Src/usbd_hid_keyboard.c:382:17:USBD_HID_Setup	16	static
-../Core/Src/usbd_hid_keyboard.c:358:17:USBD_HID_DeInit	16	static
-../Core/Src/usbd_hid_keyboard.c:327:17:USBD_HID_Init	8	static
-../Core/Src/usbd_hid_keyboard.c:464:9:USBD_HID_SendReport	8	static
-../Core/Src/usbd_hid_keyboard.c:490:10:USBD_HID_GetPollingInterval	0	static

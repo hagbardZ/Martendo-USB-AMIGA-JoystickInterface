@@ -37,7 +37,7 @@ USB_Device/App/usb_device.o: ../USB_Device/App/usb_device.c \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
- ../USB_Device/App/usbd_desc.h ../Core/Inc/usbd_hid_keyboard.h \
+ ../USB_Device/App/usbd_desc.h ../Core/Inc/usbd_hid_joystick.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Core/Inc/main.h
 ../USB_Device/App/usb_device.h:
@@ -79,6 +79,6 @@ USB_Device/App/usb_device.o: ../USB_Device/App/usb_device.c \
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
 ../USB_Device/App/usbd_desc.h:
-../Core/Inc/usbd_hid_keyboard.h:
+../Core/Inc/usbd_hid_joystick.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 ../Core/Inc/main.h:

@@ -1,5 +1,5 @@
-Core/Src/usbd_hid_keyboard.o: ../Core/Src/usbd_hid_keyboard.c \
- ../Core/Inc/usbd_hid_keyboard.h \
+Core/Src/usbd_hid_joystick.o: ../Core/Src/usbd_hid_joystick.c \
+ ../Core/Inc/usbd_hid_joystick.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  ../USB_Device/Target/usbd_conf.h \
@@ -39,7 +39,7 @@ Core/Src/usbd_hid_keyboard.o: ../Core/Src/usbd_hid_keyboard.c \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
  ../Core/Inc/main.h ../USB_Device/App/usbd_desc.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-../Core/Inc/usbd_hid_keyboard.h:
+../Core/Inc/usbd_hid_joystick.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 ../USB_Device/Target/usbd_conf.h:
